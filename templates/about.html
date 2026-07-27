@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}About | David's Portfolio{% endblock %}
+
+{% block content %}
+<div class="about-header">
+  <img src="{{ url_for('static', filename='profile.jpg') }}" alt="David" class="profile-photo">
+  <h1>About Me</h1>
+</div>
+<p>
+  I'm David, a Computer Science student pursuing a combined Software Engineering
+  and Machine Learning track. I'm building my skills in web development,
+  data structures and algorithms, and applied mathematics, with a long-term
+  goal of working in machine learning.
+</p>
+<p>
+  I enjoy building small, practical projects to learn by doing — this
+  portfolio itself is one of them.
+</p>
+{% endblock %}

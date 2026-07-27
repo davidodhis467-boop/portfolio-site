@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}Projects | David's Portfolio{% endblock %}
+
+{% block content %}
+<h1>Projects</h1>
+
+<div class="project-card">
+  <h2>Movie Search & Watchlist App</h2>
+  <span class="stack">Flask · SQLite · JavaScript · TMDb API</span>
+  <p>Search movies live via the TMDb API, save picks to a personal watchlist stored in SQLite, and see where to legally
+    stream, rent, or buy each title. Fully deployed and live.</p>
+  <div class="project-links">
+    <a href="https://github.com/davidodhis467-boop/Sadurp-Movie-App-" target="_blank">GitHub →</a>
+  </div>
+</div>
+
+<div class="project-card">
+  <h2>Task Manager</h2>
+  <span class="stack">Flask · SQLite · JavaScript</span>
+  <p>A to-do list app with a Flask + SQLite backend and a vanilla JavaScript frontend using fetch() — add, complete,
+    edit, and delete tasks without reloading the page.</p>
+  <div class="project-links">
+    <a href="#" target="_blank">GitHub →</a>
+  </div>
+</div>
+
+<div class="project-card">
+  <h2>Tic-Tac-Toe</h2>
+  <span class="stack">HTML · CSS · JavaScript</span>
+  <p>A static, no-backend tic-tac-toe game built to practice front-end fundamentals and deployed via Cloudflare Pages.
+  </p>
+  <div class="project-links">
+    <a href="#" target="_blank">GitHub →</a>
+  </div>
+</div>
+
+<div class="project-card">
+  <h2>Python Automation Scripts</h2>
+  <span class="stack">Python</span>
+  <p>A collection of Python scripts for automating everyday tasks on my PC, plus console apps built with OOP and
+    dictionary-based logic (including a library management system and a restaurant ordering system).</p>
+  <div class="project-links">
+    <a href="#" target="_blank">GitHub →</a>
+  </div>
+</div>
+{% endblock %}
