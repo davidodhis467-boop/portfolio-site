@@ -3,30 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Page title: each page can override this -->
     <title>{% block title %}David Odhis — Software Engineer & ML Enthusiast{% endblock %}</title>
-
-    <!-- Meta description: each page can override this -->
     <meta name="description" content="{% block description %}Portfolio of David Odhis, a software engineering and machine learning student — projects, skills, and contact info.{% endblock %}">
-
-    <!-- Helps search engines understand your name/keywords -->
     <meta name="keywords" content="David Odhis, software engineer, portfolio, machine learning, Flask developer">
     <meta name="author" content="David Odhis">
-
-    <!-- Open Graph: controls how the link looks when shared on WhatsApp/LinkedIn/etc -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="{% block og_title %}David Odhis — Portfolio{% endblock %}">
     <meta property="og:description" content="{% block og_description %}Software engineering & ML student. See my projects and skills.{% endblock %}">
-    <meta property="og:url" content="https://YOUR-DOMAIN-HERE.onrender.com{{ request.path }}">
-    <meta property="profile.jpg" content="https://YOUR-DOMAIN-HERE.onrender.com/static/preview.png">
-
-    <!-- Canonical URL avoids duplicate-content confusion -->
-    <link rel="canonical" href="https://YOUR-DOMAIN-HERE.onrender.com{{ request.path }}">
-
+    <meta property="og:url" content="https://portfolio-site-0hll.onrender.com{{ request.path }}">
+    <meta property="og:image" content="https://portfolio-site-0hll.onrender.com/static/profile.jpg">
+    <link rel="canonical" href="https://portfolio-site-0hll.onrender.com{{ request.path }}">
     {% block extra_head %}{% endblock %}
 </head>
-
 <body>
   <nav>
     <a href="/">Home</a>
@@ -35,10 +23,8 @@
     <a href="/skills">Skills</a>
     <a href="/contact">Contact</a>
   </nav>
-
   <main>
     {% block content %}{% endblock %}
   </main>
 </body>
-
 </html>
