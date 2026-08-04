@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://YOUR-DOMAIN-HERE.onrender.com/</loc>
+    <loc>https://portfolio-site-0hll.onrender.com</loc>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN-HERE.onrender.com/projects</loc>
+    <loc>https://portfolio-site-0hll.onrender.com/about</loc>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN-HERE.onrender.com/contact</loc>
+    <loc>https://portfolio-site-0hll.onrender.com/projects</loc>
+  </url>
+  <url>
+    <loc>https://portfolio-site-0hll.onrender.com/skills</loc>
+  </url>
+  <url>
+    <loc>https://portfolio-site-0hll.onrender.com/contact</loc>
   </url>
 </urlset>
